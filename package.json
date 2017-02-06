@@ -43,5 +43,14 @@
     "ts-node": "1.2.1",
     "tslint": "^4.3.0",
     "typescript": "~2.0.3"
+  },
+  "scripts": {
+    "start": "http-server",
+    "lint": "tslint \"src/**/*.ts\"",
+    "test": "ng test",
+    "pree2e": "webdriver-manager update",
+    "e2e": "protractor",
+    "preinstall": "npm install -g http-server",
+    "postinstall": "ng build && mv dist/* ."
   }
 }
