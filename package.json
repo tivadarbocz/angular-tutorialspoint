@@ -25,7 +25,6 @@
     "rxjs": "^5.0.1",
     "ts-helpers": "^1.1.1",
     "zone.js": "^0.7.2",
-    //In Heroku dev-dependencies are not installed by default, that means that to make the ng build script to work we need to move dev-dependency to the dependencies block.
     "@angular/compiler-cli": "^2.3.1",
     "@types/jasmine": "2.5.38",
     "@types/node": "^6.0.42",
